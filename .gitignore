@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large media captures and processed artifacts
+raw_videos/*.mp4
+raw_videos/*.m4a
+raw_videos/*.webm
+processed_video/*.mp4
+processed_video/*.m4a
+ready_to_upload/*/short.mp4
+ready_to_upload/*/thumbnail.jpg
+audio_vo/*.wav
+audio_vo/*.aiff
+transcripts/*.json
+
+# Logs & Database
+*.log
+*.sqlite
+*.sqlite3
+
+# YouTube API Credentials & Tokens
+client_secrets.json
+youtube_token.json
+token.json
+
+# Environment & OS
+.DS_Store
+.venv/
+env/
+venv/
